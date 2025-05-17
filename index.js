@@ -404,7 +404,6 @@ console.log(assignedPoints);
 // turning setTimeout on again
 function onTimeout () {
   canProgress = true;
-  console.log("on")
 }
 
 // button to function and assigning points. Initial jury votes are stores in here
@@ -420,7 +419,6 @@ document.getElementById('blank-score').addEventListener("click", assignPoints);
 function assignPoints () { 
   if (canProgress === true) {  
     canProgress = false;
-    console.log("off");
     setTimeout(onTimeout, 1500);
 if (juryDone !== true)  
 { poland = 2;
