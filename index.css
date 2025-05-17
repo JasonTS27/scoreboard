@@ -1,0 +1,188 @@
+:root {
+--gradient1: rgb(135, 3, 25);
+--gradient2: rgb(230, 48, 48);
+}
+*{
+    overflow: hidden;
+    cursor: crosshair;
+}
+body {
+    background-image: url('.//flags/vote_background.png');
+    background-repeat:no-repeat;
+}
+#container{
+    width: 1920px;
+    height: 1065px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+.vote-box {
+    display: flex;
+    flex-direction: row;
+    width: 578px;
+    height: 88px;
+    margin: 15px;
+    background-image: linear-gradient(90deg, var(--gradient1), var(--gradient2));
+}
+
+/*-flagS BELOW*/
+.flag {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-size: cover;
+}
+#poland-flag {
+    background-image: url('.//flags/poland.png');
+}
+#ireland-flag {
+    background-image: url('.//flags/ireland.png');
+}
+#france-flag {
+    background-image: url('.//flags/france.png');
+}
+#denmark-flag {
+    background-image: url('.//flags/denmark.png');
+    background-position-x: -10px;
+}
+#portugal-flag {
+    background-image: url('.//flags/portugal.png');
+    background-position-x: -20px;
+}
+#czechia-flag {
+    background-image: url('.//flags/czechia.png');
+    background-size: 80px 80px !important;
+}
+#finland-flag {
+    background-image: url('.//flags/finland.png');
+    background-position-x: -20px;
+}
+#croatia-flag {
+    background-image: url('.//flags/croatia.png');
+    background-position: center;
+}
+#australia-flag {
+    background-image: url('.//flags/australia.jpg');
+
+}
+#albania-flag {
+    background-image: url('.//flags/albania.png');
+    background-position: center;
+}
+#iceland-flag {
+    background-image: url('.//flags/iceland.png');
+    background-position-x: -10px;
+}
+#sweden-flag {
+    background-image: url('.//flags/sweden.svg');
+    background-position-x: -20px;
+}
+#armenia-flag {
+    background-image: url('.//flags/armenia.png');
+}
+#austria-flag {
+    background-image: url('.//flags/austria.png');
+}
+#ukraine-flag {
+    background-image: url('.//flags/ukraine.png');
+    background-size: 200% !important;
+    background-position-y: -40px;
+}
+#germany-flag {
+    background-image: url('.//flags/germany.png');
+}
+#spain-flag {
+    background-image: url('.//flags/spain.png');
+    background-position-x: -2px;
+}
+#switzerland-flag {
+    background-image: url('.//flags/switzerland.png');
+}
+#netherlands-flag {
+    background-image: url('.//flags/netherlands.png');
+}
+#estonia-flag {
+    background-image: url('.//flags/estonia.png');
+}
+#belgium-flag {
+    background-image: url('.//flags/belgium.png');
+    background-size: 80px 80px !important;
+}
+#greece-flag {
+    background-image: url('.//flags/greece.png');
+}
+#norway-flag {
+    background-image: url('.//flags/norway.png');
+    background-position-x: -15px;
+}
+#latvia-flag {
+    background-image: url('.//flags/latvia.png');
+}
+#italy-flag {
+    background-image: url('.//flags/italy.png');
+    background-size: 80px 80px !important;
+}
+#malta-flag {
+    background-image: url('.//flags/malta.png');   
+}
+
+/*-flagS ABOVE*/
+.country-name {
+    width: 314px;
+    height: 88px;
+    display: block;
+    align-content: center;
+    justify-content: left;
+}
+.named {
+    font-family: 'Cal Sans';
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+.score {
+    width: 88px;
+    height: 88px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+.televote {
+    width: 88px;
+    height: 88px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    background-image: none;
+}
+.score-number, .televote-score {
+    font-family: 'Cal Sans';
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    align-self: center;
+    letter-spacing: 4px;
+    background: none;
+    border: none;
+    width: 80px;
+    text-align: center;
+}
+#no-flag {
+    background-color: none !important;
+}
+#blank {
+    background-image: none !important;
+}
+#blank-score {
+    background-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
