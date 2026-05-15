@@ -130,7 +130,7 @@ setTimeout(() => {sort(), countries.sort((b, a) => {a.juryScore - b.juryScore});
 
 getResults()
 async function getResults() {
-     const res = await fetch("https://fabform.io/f/submissions/uzSauBx")
+     const res = await fetch("#")
      results = await res.json();}
 
 fetchScores()     
